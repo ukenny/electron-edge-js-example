@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-        <script>
-            var version = location.search.split('version=')[1];
-            version = version.charAt(0).toUpperCase() + version.substr(1)
-            var namespace = 'QuickStart.' + version + '.dll';
-        </script>
+
+<head>
+    <script>
+        var version = location.search.split('version=')[1];
+        version = version.charAt(0).toUpperCase() + version.substr(1)
+        var namespace = 'QuickStart.' + version + '.dll';
+    </script>
     <meta charset="UTF-8">
     <title>electron-edge-js Quick Start</title>
     <script>
         require('./renderer.js')
     </script>
-      <link rel="stylesheet" href="default.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="default.css">
+</head>
+
+<body>
     <h3 id="test">
-        Quick start for electron-edge-js module using .NET 
+        Quick start for electron-edge-js module using .NET
         <script>
             document.write(version)
         </script>
@@ -25,7 +27,7 @@
         <tr>
             <th style="background: #c4d4e5" colspan="2">
                 <strong>
-                    Calling local methods from 
+                    Calling local methods from
                     <script>
                         document.write(namespace)
                     </script>
@@ -38,18 +40,24 @@
         </tr>
         <tr>
             <td class="method">GetAppDomainDirectory</td>
-            <td><pre id="GetAppDomainDirectory"></pre></td>
+            <td>
+                <pre id="GetAppDomainDirectory"></pre>
+            </td>
         </tr>
         <tr>
             <td class="method">GetCurrentTime</td>
-            <td><pre id="GetCurrentTime"></pre></td>
+            <td>
+                <pre id="GetCurrentTime"></pre>
+            </td>
         </tr>
         <tr>
             <td class="method">UseDynamicInput</td>
-            <td><pre id="UseDynamicInput"></pre></td>
+            <td>
+                <pre id="UseDynamicInput"></pre>
+            </td>
         </tr>
     </table>
-    <br/>
+    <br />
     <table>
         <tr>
             <th style="background: #c4d4e5" colspan="2">
@@ -68,8 +76,11 @@
         </tr>
         <tr>
             <td class="method">GetPersonInfo</td>
-            <td><pre id="GetPersonInfo"></pre></td>
+            <td>
+                <pre id="GetPersonInfo"></pre>
+            </td>
         </tr>
     </table>
-  </body>
+</body>
+
 </html>

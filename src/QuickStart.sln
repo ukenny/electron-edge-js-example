@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.Core", "QuickStart.Core\QuickStart.Core.csproj", "{667B1DD5-7337-462D-B1B5-1EA46ED0C4D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{63532A05-1F28-470C-906F-2FA21BCA5040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{63532A05-1F28-470C-906F-2FA21BCA5040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickStart.Standard", "QuickStart.Standard\QuickStart.Standard.csproj", "{BF7F7CC3-D4A5-40F1-B264-232D0FB6F740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickStart.Standard", "QuickStart.Standard\QuickStart.Standard.csproj", "{BF7F7CC3-D4A5-40F1-B264-232D0FB6F740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternlaLibrary.Standard", "ExternlaLibrary.Standard\ExternlaLibrary.Standard.csproj", "{E81C907C-B5B6-4EC2-A5B9-230661FD6B94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternlaLibrary.Standard", "ExternlaLibrary.Standard\ExternlaLibrary.Standard.csproj", "{E81C907C-B5B6-4EC2-A5B9-230661FD6B94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickStart.Framework", "QuickStart.Framework\QuickStart.Framework.csproj", "{6D9125CF-FAEB-4DA6-86DB-26C4B3435156}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E81C907C-B5B6-4EC2-A5B9-230661FD6B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E81C907C-B5B6-4EC2-A5B9-230661FD6B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E81C907C-B5B6-4EC2-A5B9-230661FD6B94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9125CF-FAEB-4DA6-86DB-26C4B3435156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9125CF-FAEB-4DA6-86DB-26C4B3435156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9125CF-FAEB-4DA6-86DB-26C4B3435156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9125CF-FAEB-4DA6-86DB-26C4B3435156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
